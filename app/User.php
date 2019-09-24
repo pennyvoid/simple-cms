@@ -51,6 +51,6 @@ class User extends Authenticatable
     }
     public function mainAdmin()
     {
-        return $this->email == 'alikazemi@gmail.com';
+        return $this->email == 'loghman@avand.com';
     }
 }
